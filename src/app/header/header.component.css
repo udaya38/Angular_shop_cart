@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #49c5b6;
+}
+
+.checkincart {
+  border: none;
+  background-color: #49c5b6;
+  cursor: pointer;
+}
+.content {
+  font-weight: border;
+  font-size: 26px;
+  color: white;
+  font-family: cursive;
+  margin-left: 40%;
+  cursor: pointer;
+}
+.cart {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+span {
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    margin-left: 25%;
+  }
+}
